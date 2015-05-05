@@ -1,0 +1,117 @@
+body {color: #000000; background: #FFFFFF; margin: 0; padding: 0; font-size: 95%;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+th {background-color: #006600; color: #ffffff; padding : 2px; vertical-align : middle;}
+
+a {color: #000000; text-decoration: none; background-color: transparent;}
+a:hover {color: #006600; font-weight: bold;}
+th a {color: #ffffff;}
+th a:hover {color: #adff2f;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+ul {margin: 2px; padding: 5px; list-style: disc inside; text-align: left;}
+li {margin-left: 2px; list-style: square inside; color: #006600;}
+
+input {color:#000000; border:1px solid #006600; margin: 1px; padding-top:3px; background-color: #ffffff;}
+textarea {color:#000000; border:1px solid #006600; margin: 1px; padding-top:3px; background-color: #ffffff;}
+
+.item {background-color: #adff2f;}
+.itemHead {padding: 10px 10px 2px 10px; border-bottom: 2px dotted #006600; font-size: 120%;}
+.itemTitle a{}
+.itemInfo {text-align: right; padding: 2px 5px 5px 5px;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding: 2px 15px 2px 15px;}
+.itemText {line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 2px 5px 5px 5px;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+td#headerlogo {height: 120px; background-image: url(./image/titleback.gif); background-repeat: repeat-x; padding: 0px; text-align: left;}
+td#headerbar {padding: 5px; vertical-align: middle; background-color: #ffffff; text-align: right;}
+
+td#leftcolumn {width: 160px; padding: 0px;}
+td#leftcolumn th {background-color: #006600; color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {width: 160px; height: 40px; background-image: url(./image/lsideback_top.gif); background-repeat: no-repeat;}
+td#leftcolumn div.blockTitle2 {color: #006600; padding-top: 20px; text-align: center; font-size: 14px; font-weight: bold;}
+td#leftcolumn div.blockContent {width: 160px; background-color: #adff2f; line-height: 120%; margin: 0;}
+td#leftcolumn div.blockContent02 {padding-top: 5px; padding-right: 10px; padding-bottom: 0; padding-left: 20px; line-height: 120%;}
+td#leftcolumn div.blockfoot {width: 160px; height: 25px; background-image: url(./image/lsideback_foot.gif); background-repeat: no-repeat; margin: 0px 0px 15px 0px;}
+
+td#centercolumn {padding: 25px 40px 25px 40px;}
+
+td#centerCcolumn {}
+td#centerCcolumn div.blockTitle {background-color: #adff2f; padding: 10px 15px 2px 15px; font-size: 120%;}
+td#centerCcolumn div.blockContent {background-color: #adff2f; margin-bottom: 20px; padding: 2px 15px 10px 15px;}
+
+td#centerLcolumn {width: 50%;}
+td#centerLcolumn div.blockTitle {background-color: #adff2f; margin-right: 15px; padding: 10px 15px 2px 15px; font-size: 120%;}
+td#centerLcolumn div.blockContent {background-color: #adff2f; margin-right: 15px; margin-bottom: 20px; padding: 2px 15px 10px 15px;}
+
+td#centerRcolumn {width: 50%;}
+td#centerRcolumn div.blockTitle {background-color: #adff2f; margin-left: 15px; padding: 10px 15px 2px 15px; font-size: 120%;}
+td#centerRcolumn div.blockContent {background-color: #adff2f; margin-left: 15px; margin-bottom: 20px; padding: 2px 15px 10px 15px;}
+
+div#content {text-align: left; padding: 8px;}
+div#content div.blockTitle {color: #006600; padding: 5px; font-size: 150%; font-weight: bold;}
+
+td#rightcolumn {width: 160px; padding: 0px;}
+td#rightcolumn th {background-color: #006600; color: #FFFFFF; vertical-align: middle;}
+td#rightcolumn div.blockTitle {width: 160px; height: 40px; background-image: url(./image/rsideback_top.gif); background-repeat: no-repeat;}
+td#rightcolumn div.blockTitle2 {color: #006600; padding-top: 20px; text-align: center; font-size: 14px; font-weight: bold;}
+td#rightcolumn div.blockContent {width: 160px; background-color: #adff2f; line-height: 120%;}
+td#rightcolumn div.blockContent02 {padding-top: 5px; padding-right: 10px; padding-bottom: 0; padding-left: 20px; line-height: 120%;}
+td#rightcolumn div.blockfoot {width: 160px; height: 25px; background-image: url(./image/rsideback_foot.gif); background-repeat: no-repeat; margin-bottom: 15px;}
+
+tr#footerbar {text-align:center; background-color: #006600; padding: 0px;}
+
+td#mainmenu a {display: block;margin: 0; padding-top: 2px; padding-bottom: 3px;}
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 10px;}
+
+td#usermenu a {display: block; margin: 0; padding-top: 2px; padding-bottom: 3px;}
+td#usermenu a:hover {}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {background-color: #e2ffad;}
+
+
+
+.outer {border: 1px solid #006600; background-color: #ffffff;}
+.outer td{padding: 5px;}
+.head {background-color: #adff2f; font-weight: bold;}
+.even {background-color: #e2ffad;}
+.odd {background-color: #ffffff;}
+.foot {background-color: #adff2f; font-weight: bold;}
+tr.even td {background-color: #e2ffad;}
+tr.odd td {background-color: #ffffff;}
+
+div.errorMsg { background-color: #ffffff; text-align: center; border-top: 1px solid #006600; border-left: 1px solid #006600; border-right: 1px solid #006600; border-bottom: 1px solid #006600; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #ffffff; color: #000000; text-align: center; border-top: 1px solid #006600; border-left: 1px solid #006600; border-right: 1px solid #006600; border-bottom: 1px solid #006600; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #ffffff; color: #000000; text-align: center; border-top: 1px solid #006600; border-left: 1px solid #006600; font-weight: bold; border-right: 1px solid #006600; border-bottom: 1px solid #006600; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #006600; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #006600; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #006600; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
